@@ -27,24 +27,11 @@ async function getPokemonByName(pokemonName) {
   })
 
   .then(res => res.json())
-  .then(res => {
-    render(res)
-    return res
-  })
-  return pokemon
+  .then(res => res)
+   render(pokemon.species)
 }
 
-function renderSeach(){
-   const searchInput = document.querySelector('input')
-   const seachBtn = document.querySelector('#searchBtn')
-  
-    seachBtn.addEventListener('click', () => {
-
-      getPokemonByName(searchInput.value)
-    })
-}
+ 
 
 
-getAllPokemons()
-//getPokemonByName()
-renderSeach()
+ getAllPokemons()
