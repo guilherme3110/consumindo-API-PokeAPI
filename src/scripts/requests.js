@@ -34,4 +34,5 @@ async function getPokemonByName(pokemonName) {
  
 
 
- getAllPokemons()
+ setTimeout(() => {
+  getAllPokemons()},2000);
