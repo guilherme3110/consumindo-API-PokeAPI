@@ -1,3 +1,68 @@
+@media (max-width: 400px){
+    body {
+
+    }
+
+    /* img {
+      display: flex;
+      position: absolute;
+      width: 125px;
+      height: 50.1px;
+      left: 97px;
+      top: 33px;
+    } */
+    h3{
+      display: flex;
+      width: 194px;
+      height: 31px;
+      left: 63px;
+      top: 157.1px;
+
+      font-family: 'IBM Plex Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 31px;
+
+      color: #DEE2E6;
+    }
+    p{
+      display: flex;
+      position: absolute;
+      width: 124px;
+      height: 26px;
+      left: 98px;
+      top:  371px;
+
+      font-family: 'IBM Plex Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 26px;
+
+      color: #ADB5BD;
+    }
+    ul   {
+      display:flex;
+      position: absolute;
+      width: 280px;
+      height: 60px;
+      left: 20px;
+      top: 262px;
+
+      background-color: #343A40;
+      border-radius: 8px;
+    }
+}
+
+
+
+
+
+
+
+
+
 body {
   background-color: #212529;
   color: #dee2e6;
